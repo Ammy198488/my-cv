@@ -1,0 +1,53 @@
+*,
+*:before,
+*:after{
+    padding:0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: white;
+    width: 1000px;
+    padding: 20px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    
+}
+.header{
+    background: maroon;
+    padding: 1em;
+}
+p{
+    padding-top: 0.5em;
+}
+h3{
+    color: maroon;
+}
+hr{
+    width: 15em;
+}
+.left-side{
+    float: right;
+    padding-right: 2em;
+}
+.right{
+    margin-top: 2em;
+}
+.skill,.stack,.hobby{
+    margin-top: 2em;
+}
+button{
+    background: maroon;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 1em;
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 500px;
+    }
+    .right{
+        margin-top: 1.5em;
+    }
+}
